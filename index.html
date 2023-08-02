@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix clone</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://kit.fontawesome.com/f389306986.js" crossorigin="anonymous"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/nficon2016.ico"
+      type="image/x-icon"
+    />
+    <style></style>
+  </head>
+  <body>
+    <div
+      class="w-full bg-[url(./assets/library.jpg)] bg-no-repeat bg-cover bg-center relative"
+    > 
+    <div class="inset-0 bg-[rgba(0,0,0,0.5)] absolute"></div>
+      <nav
+        class="max-w-7xl flex w-11/12 justify-between items-center mx-auto relative "
+      >
+        <img src="./assets/Netflix_Logo_PMS.png" class="md:w-48 w-24" alt="Netflix" />
+        <div class="flex gap-2 text-xs md:text-base py-2">
+        <div class="relative border rounded">
+        <select
+          name="country"
+          id="code"
+          class="relative rounded-md appearance-none bg-[rgba(0,0,0,.8)] text-[#ffE] py-2 px-4"
+        >
+          <option value="Eng">English</option>
+          <option value="Hindi">Hindi</option>
+          <option value="French">France</option>
+          <option value="New_york">New York</option>
+        </select>
+        <i class="fa-solid fa-caret-down absolute text-white top-[30%] right-3"></i>
+    </div>
+        <button class="bg-[#ff0000] hover:bg-[#d61e1e]  py-2 px-2 rounded text-white">Sign In</button>
+    </div>
+      </nav>
+      <div
+        class="flex flex-col items-center py-28 lg:py-48 gap-4 relative"
+      >
+        <h2 class="text-3xl xl:text-5xl font-black text-white text-center">
+          Unlimited movies, TV shows and more.
+        </h2>
+        <p class="text-lg lg:text-2xl font-semibold text-white text-center">
+          Watch anywhere. Cancel anytime.
+        </p>
+        <p class="text-xl text-white text-center lg:text-start">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+
+        <div class="flex gap-3 text-2xl md:text-3xl justify-center flex-wrap">
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="Enter email"
+            class="bg-black text-white rounded-md border border-gray-400 opacity-70 p-2"
+          />
+          <div class="bg-[#ff0000] hover:bg-[#d61e1e] duration-300 font-semibold rounded text-white p-2 cursor-pointer"
+            >Get Started <i class="fa-solid fa-chevron-right"></i></div
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full h-2 bg-slate-800"></div>
+    <!-- section 2 -->
+
+    <div class="bg-black">
+      <div class="max-w-7xl mx-auto w-11/12">
+        <div class="grid lg:grid-cols-2 py-20 grid-cols-1 items-center">
+          <!-- info -->
+          <div class="grid gap-4 text-center lg:text-start">
+            <h2 class="text-3xl xl:text-5xl font-bold text-white">Enjoy on your TV.</h2>
+            <p class="text-lg lg:text-2xl  text-white">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+          </div>
+
+          <div class="relative  place-self-center">
+            <img src="./assets/tv.png" class=" relative z-[2]" alt="video" />
+            <video
+              class="absolute bg-red-400 top-1/2 left-1/2 -translate-x-1/2 aspect-video -translate-y-1/2 w-[75%] z-[1]"
+            >
+              <source srcset="" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full h-2 bg-slate-800"></div>
+    <!-- section 3 -->
+    <div class="bg-black">
+      <div class="max-w-7xl mx-auto w-11/12">
+        <div class="grid lg:grid-cols-2 py-20 grid-cols-1 items-center ">
+          <div class="relative order-1 lg:-order-1 place-self-center">
+            <img src="./assets/mobile-0819.jpg" alt="" />
+            <div
+              class="w-4/5 bg-blue h-[120px] absolute bottom-0 left-1/2 -translate-x-2/4 mb-5 flex justify-between bg-black rounded-lg p-3"
+            >
+              <div class="flex gap-3">
+                <img src="./assets/boxshot.png" class="" alt="" />
+                <p class="text-xl font-extrabold text-white self-center">
+                  Stranger things <br />
+                  <span class="font-normal text-blue-700 text-lg"
+                    >Downloading...</span
+                  >
+                </p>
+              </div>
+              <img src="./assets/download-icon.gif" alt="" />
+            </div>
+          </div>
+          <div class="grid gap-4 lg:text-start text-center">
+            <h2 class="text-3xl xl:text-5xl leading-tight font-black text-white">
+              Download your shows to watch offline.
+            </h2>
+            <p class="font-semibold text-white text-lg lg:text-2xl">
+              Save your favourites easily and always have something to watch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full h-2 bg-slate-800"></div>
+    <!-- section 4 -->
+   <div class="bg-black">
+    <div class="max-w-7xl mx-auto w-11/12">
+        <div class="grid lg:grid-cols-2 py-20 grid-cols-1 items-center ">
+        <div class="grid gap-4 lg:text-start text-center">
+          <h2 class="text-3xl xl:text-5xl font-black text-white">
+            Watch everywhere.
+          </h2>
+          <p class="text-lg lg:text-2xl font-semibold text-white">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+        <div class="relative place-self-center">
+          <img src="./assets/device-pile-in.png" alt="" />
+        </div>
+      </div>
+    </div>
+</div>
+    <div class="w-full h-2 bg-slate-800"></div>
+    <!-- section 5 -->
+
+    <div class="bg-black">
+     <div
+      class="max-w-7xl mx-auto w-11/12"
+    >
+    <div class="grid lg:grid-cols-2 py-20 grid-cols-1 items-center ">
+        <div class="place-self-center order-1 lg:-order-1"><img src="./assets/child.png" alt="" /></div>
+        <div class="grid gap-4 lg:text-start text-center">
+          <h2 class="text-3xl xl:text-5xl font-black text-white leading-tight">
+            Create profiles for children.
+          </h2>
+          <p class="text-lg lg:text-2xl font-semibold text-white">
+            Send children on adventures with their favourite characters in a
+            space made just for them—free with your membership.
+          </p>
+        </div>
+      </div>
+ 
+     </div>
+    </div>
+
+
+    <div class="w-full h-2 bg-slate-800"></div>
+    <!-- table section  -->
+
+    <div class="bg-black">
+      <div
+        class="mx-auto flex flex-col p-20 items-center text-white max-w-7xl gap-8 text-center"
+      >
+        <h2 class=" text-2xl lg:text-3xl font-black">
+          Frequently Asked Questions
+        </h2>
+        <div class="w-full grid gap-2">
+          <div class="flex justify-between bg-gray-700 p-4">
+            <p>What is Netflix?</p>
+            <p>+</p>
+          </div>
+          <div class="flex justify-between bg-gray-700 p-4">
+            <p>How much does Netflix cost?</p>
+            <p>+</p>
+          </div>
+          <div class="flex justify-between bg-gray-700 p-4">
+            <p>Where can I watch?</p>
+            <p>+</p>
+          </div>
+          <div class="flex justify-between bg-gray-700 p-4">
+            <p>How do I cancel</p>
+            <p>+</p>
+          </div>
+          <div class="flex justify-between bg-gray-700 p-4">
+            <p>What can I watch on Netflix?</p>
+            <p>+</p>
+          </div>
+          <div class="flex justify-between bg-gray-700 p-4">
+            <p>Is Netflix good for kids?</p>
+            <p>+</p>
+          </div>
+        </div>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="flex gap-3 flex-wrap justify-center md:text-2xl">
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Enter email"
+              class="bg-black text-white rounded-md border border-gray-400 opacity-70 p-2"
+            />
+            <div class="duration-300 bg-[#ff0000] hover:bg-[#d61e1e] font-semibold rounded text-white p-2 cursor-pointer"
+              >Get Started <i class="fa-solid fa-chevron-right"></i></div
+            >
+          </div>
+      </div>
+    </div>
+    <div class="w-full h-2 bg-slate-800"></div>
+  </body>
+</html>
