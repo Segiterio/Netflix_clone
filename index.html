@@ -35,7 +35,7 @@
           <option value="French">France</option>
           <option value="New_york">New York</option>
         </select>
-        <i class="fa-solid fa-caret-down absolute text-white top-[30%] right-3"></i>
+        <i class="fa-solid fa-caret-down absolute text-white top-[30%] right-3" ></i>
     </div>
         <button class="bg-[#ff0000] hover:bg-[#d61e1e] p-1 rounded text-white">Sign In</button>
     </div>
@@ -103,10 +103,10 @@
           <div class="relative order-1 lg:-order-1 place-self-center">
             <img src="./assets/mobile-0819.jpg" alt="" />
             <div
-              class="w-4/5 bg-blue absolute bottom-0 left-1/2 -translate-x-2/4 mb-5 flex justify-between bg-black rounded-lg p-3 border items-center"
+              class="w-4/5 bg-blue absolute bottom-0 left-1/2 -translate-x-2/4 mb-5 flex justify-between bg-black rounded-lg p-2 border items-center"
             >
               <div class="flex gap-3">
-                <img src="./assets/boxshot.png" class="w-16 h-16 object-cover" alt="" />
+                <img src="./assets/boxshot.png" class="md:w-10 w-8 h-full" alt="" />
                 <p class="text-sm lg:text-base font-extrabold text-white self-center">
                   Stranger things <br />
                   <span class="font-normal text-xs text-blue-700 lg:text-base"
@@ -227,5 +227,32 @@
       </div>
     </div>
     <div class="w-full h-2 bg-slate-800"></div>
+    <!-- Footer -->
+      <footer 
+       class="bg-black">
+         <div class="mx-auto flex text-[#bdbbbb] max-w-6xl w-11/12 flex-col text-xl ">
+          <div class="py-5">Questions? Call  <a class="underline" href="tel:7071724540">7071724540</a></div>
+          <!-- Links -->
+          <div class="Links grid gap-2 w-full underline py-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          </div>
+          <div class="relative border rounded w-fit">
+            <select
+              name="country"
+              id="code"
+              class="relative rounded-md appearance-none bg-[rgba(0,0,0,.8)] text-[#ffE] p-1 px-4"
+            >
+              <option value="Eng">English</option>
+              <option value="Hindi">Hindi</option>
+              <option value="French">France</option>
+              <option value="New_york">New York</option>
+            </select>
+            <i class="fa-solid fa-caret-down absolute text-white top-[25%] right-3" ></i>
+        </div>
+
+        <p class="py-8">Netflix India</p>
+         </div>
+
+      </footer>
+    <script src="./javaScript/index.js" type="module"></script>
   </body>
 </html>
